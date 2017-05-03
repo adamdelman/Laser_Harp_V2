@@ -1,0 +1,624 @@
+The target system is: Arduino -  - 
+The host system is: Linux - 4.10.8-1-ARCH - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/adam/workspace/LaserHarpString/CMakeFiles/3.7.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/adam/workspace/LaserHarpString/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07a1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07a1a.dir/build.make CMakeFiles/cmTC_07a1a.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07a1a.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_07a1a.dir/testCCompiler.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_07a1a
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07a1a.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_07a1a.dir/testCCompiler.c.obj  -o cmTC_07a1a  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9c89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9c89.dir/build.make CMakeFiles/cmTC_e9c89.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj   -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e9c89
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9c89.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj  -o cmTC_e9c89   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper
+Target: avr
+Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+Thread model: single
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/
+LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_e9c89' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW9HlMO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_e9c89 -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections -lm CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_e9c89' '-specs=device-specs/specs-avr2'
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e9c89/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e9c89.dir/build.make CMakeFiles/cmTC_e9c89.dir/build]
+  ignore line: [make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj   -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e9c89]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9c89.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj  -o cmTC_e9c89   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_e9c89' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW9HlMO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_e9c89 -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections -lm CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccW9HlMO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e9c89] ==> ignore
+    arg [-L/usr/lib/gcc/avr/6.3.0] ==> dir [/usr/lib/gcc/avr/6.3.0]
+    arg [-L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [CMakeFiles/cmTC_e9c89.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0] ==> [/usr/lib/gcc/avr/6.3.0]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> [/usr/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/6.3.0;/usr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a5a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a5a7.dir/build.make CMakeFiles/cmTC_5a5a7.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a5a7.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c11 -o CMakeFiles/cmTC_5a5a7.dir/feature_tests.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5a5a7
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a5a7.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_5a5a7.dir/feature_tests.c.obj  -o cmTC_5a5a7  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0aaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0aaf.dir/build.make CMakeFiles/cmTC_b0aaf.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0aaf.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c99 -o CMakeFiles/cmTC_b0aaf.dir/feature_tests.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0aaf
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0aaf.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_b0aaf.dir/feature_tests.c.obj  -o cmTC_b0aaf  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9097/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9097.dir/build.make CMakeFiles/cmTC_a9097.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9097.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c90 -o CMakeFiles/cmTC_a9097.dir/feature_tests.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a9097
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9097.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_a9097.dir/feature_tests.c.obj  -o cmTC_a9097  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eda85/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eda85.dir/build.make CMakeFiles/cmTC_eda85.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eda85.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_eda85.dir/testCXXCompiler.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_eda85
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eda85.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_eda85.dir/testCXXCompiler.cxx.obj  -o cmTC_eda85  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96878/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96878.dir/build.make CMakeFiles/cmTC_96878.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_96878
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96878.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_96878   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper
+Target: avr
+Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+Thread model: single
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/
+LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_96878' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKealIV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_96878 -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_96878' '-specs=device-specs/specs-avr2'
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_96878/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_96878.dir/build.make CMakeFiles/cmTC_96878.dir/build]
+  ignore line: [make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_96878]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96878.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_96878   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_96878' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKealIV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_96878 -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKealIV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_96878] ==> ignore
+    arg [-L/usr/lib/gcc/avr/6.3.0] ==> dir [/usr/lib/gcc/avr/6.3.0]
+    arg [-L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_96878.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0] ==> [/usr/lib/gcc/avr/6.3.0]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> [/usr/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/6.3.0;/usr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b778/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b778.dir/build.make CMakeFiles/cmTC_8b778.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b778.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++14 -o CMakeFiles/cmTC_8b778.dir/feature_tests.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8b778
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b778.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_8b778.dir/feature_tests.cxx.obj  -o cmTC_8b778  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_895da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_895da.dir/build.make CMakeFiles/cmTC_895da.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_895da.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++11 -o CMakeFiles/cmTC_895da.dir/feature_tests.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_895da
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_895da.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_895da.dir/feature_tests.cxx.obj  -o cmTC_895da  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f962/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f962.dir/build.make CMakeFiles/cmTC_9f962.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f962.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++98 -o CMakeFiles/cmTC_9f962.dir/feature_tests.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9f962
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f962.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_9f962.dir/feature_tests.cxx.obj  -o cmTC_9f962  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+The target system is: Arduino -  - 
+The host system is: Linux - 4.10.8-1-ARCH - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: -g;-Os;;;;;;;-mcall-prologues;-ffunction-sections;-fdata-sections
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/adam/workspace/LaserHarpString/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: -g;-Os;;;;;;;-mcall-prologues;-ffunction-sections;-fdata-sections;-fno-exceptions
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/adam/workspace/LaserHarpString/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1459d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1459d.dir/build.make CMakeFiles/cmTC_1459d.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1459d.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_1459d.dir/testCCompiler.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1459d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1459d.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_1459d.dir/testCCompiler.c.obj  -o cmTC_1459d  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bcd2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcd2a.dir/build.make CMakeFiles/cmTC_bcd2a.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bcd2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd2a.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj  -o cmTC_bcd2a   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper
+Target: avr
+Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+Thread model: single
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/
+LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_bcd2a' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKqLJ2G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_bcd2a -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections -lm CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_bcd2a' '-specs=device-specs/specs-avr2'
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bcd2a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bcd2a.dir/build.make CMakeFiles/cmTC_bcd2a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_bcd2a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd2a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj  -o cmTC_bcd2a   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_bcd2a' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKqLJ2G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_bcd2a -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections -lm CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKqLJ2G.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bcd2a] ==> ignore
+    arg [-L/usr/lib/gcc/avr/6.3.0] ==> dir [/usr/lib/gcc/avr/6.3.0]
+    arg [-L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [CMakeFiles/cmTC_bcd2a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0] ==> [/usr/lib/gcc/avr/6.3.0]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> [/usr/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/6.3.0;/usr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3246/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3246.dir/build.make CMakeFiles/cmTC_a3246.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3246.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c11 -o CMakeFiles/cmTC_a3246.dir/feature_tests.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a3246
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3246.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_a3246.dir/feature_tests.c.obj  -o cmTC_a3246  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00fa7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00fa7.dir/build.make CMakeFiles/cmTC_00fa7.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00fa7.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c99 -o CMakeFiles/cmTC_00fa7.dir/feature_tests.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00fa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00fa7.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_00fa7.dir/feature_tests.c.obj  -o cmTC_00fa7  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67d86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67d86.dir/build.make CMakeFiles/cmTC_67d86.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67d86.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c90 -o CMakeFiles/cmTC_67d86.dir/feature_tests.c.obj   -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.c
+Linking C executable cmTC_67d86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67d86.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_67d86.dir/feature_tests.c.obj  -o cmTC_67d86  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4495b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4495b.dir/build.make CMakeFiles/cmTC_4495b.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4495b.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_4495b.dir/testCXXCompiler.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4495b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4495b.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_4495b.dir/testCXXCompiler.cxx.obj  -o cmTC_4495b  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f27e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f27e5.dir/build.make CMakeFiles/cmTC_f27e5.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f27e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27e5.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_f27e5   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper
+Target: avr
+Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+Thread model: single
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/
+LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_f27e5' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccvqfuX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_f27e5 -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_f27e5' '-specs=device-specs/specs-avr2'
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f27e5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f27e5.dir/build.make CMakeFiles/cmTC_f27e5.dir/build]
+  ignore line: [make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f27e5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27e5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_f27e5   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/6.3.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/6.3.0/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /build/avr-gcc/src/gcc-6-20161222/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/6.3.0/:/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_f27e5' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/6.3.0/collect2 -plugin /usr/lib/gcc/avr/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccvqfuX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_f27e5 -L/usr/lib/gcc/avr/6.3.0 -L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccvqfuX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f27e5] ==> ignore
+    arg [-L/usr/lib/gcc/avr/6.3.0] ==> dir [/usr/lib/gcc/avr/6.3.0]
+    arg [-L/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_f27e5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0] ==> [/usr/lib/gcc/avr/6.3.0]
+  collapse library dir [/usr/lib/gcc/avr/6.3.0/../../../../avr/lib] ==> [/usr/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/6.3.0;/usr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ded7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ded7.dir/build.make CMakeFiles/cmTC_2ded7.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ded7.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++14 -o CMakeFiles/cmTC_2ded7.dir/feature_tests.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2ded7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ded7.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_2ded7.dir/feature_tests.cxx.obj  -o cmTC_2ded7  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc14b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc14b.dir/build.make CMakeFiles/cmTC_fc14b.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc14b.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++11 -o CMakeFiles/cmTC_fc14b.dir/feature_tests.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fc14b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc14b.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_fc14b.dir/feature_tests.cxx.obj  -o cmTC_fc14b  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73479/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73479.dir/build.make CMakeFiles/cmTC_73479.dir/build
+make[1]: Entering directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73479.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++98 -o CMakeFiles/cmTC_73479.dir/feature_tests.cxx.obj -c /home/adam/workspace/LaserHarpString/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_73479
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73479.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_73479.dir/feature_tests.cxx.obj  -o cmTC_73479  
+make[1]: Leaving directory '/home/adam/workspace/LaserHarpString/CMakeFiles/CMakeTmp'
+
+

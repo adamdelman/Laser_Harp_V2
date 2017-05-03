@@ -1,0 +1,13 @@
+
+#ifndef LASERHARPSTRING_NOTEMESSAGE_H
+#define LASERHARPSTRING_NOTEMESSAGE_H
+
+
+class NoteMessage {
+
+
+
+};
+
+
+#endif //LASERHARPSTRING_NOTEMESSAGE_H
