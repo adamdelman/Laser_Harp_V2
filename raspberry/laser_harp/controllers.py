@@ -18,10 +18,8 @@ class DeviceEventHandler(pyinotify.ProcessEvent):
         return os.path.split(path)[-1]
 
     def _is_usb_tty_device(self, path):
-        logging.info("PATH IS %s", path)
         device_name_regex = "ttyUSB.*"
         match = re.match(device_name_regex, path)
-        logging.info("MATCH IS %s", match)
         return match is not None
 
     def process_IN_CREATE(self, event):
@@ -73,7 +71,7 @@ class NoteControllerManager:
         self.device_watcher = pyinotify.WatchManager()
         self.device_notifier = pyinotify.ThreadedNotifier(self.device_watcher,
                                                           default_proc_fun=DeviceEventHandler(
-                                                              note_controller_manager=self))
+                                                              note_controller_manager=self ))
         self.device_watcher.add_watch('/dev/', pyinotify.IN_CREATE | pyinotify.IN_DELETE)
         self.device_notifier.start()
 
