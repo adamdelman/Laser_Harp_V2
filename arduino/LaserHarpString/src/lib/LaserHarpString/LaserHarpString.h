@@ -11,14 +11,14 @@
 #define PING_REST_INTERVAL_MS 100 // How frequently are we going to send out a ping (in milliseconds). 50ms would be 20 times a second.
 #define MIN_DISTANCE_CM 10
 #define MAX_DISTANCE_CM 200 // Maximum distance_cm we want to ping for (in centimeters). Maximum sensor distance_cm is rated at 400-500cm.
-#define LIGHT_CALIBRATION_ROUNDS 50
+#define LIGHT_CALIBRATION_ROUNDS 10
 #define LIGHT_OFFSET 5
 #define DISTANCE_MEASUREMENT_ROUNDS 20
 #define NUM_OF_OCTAVES 2
 
 //Enable debug mode
-#define DEBUG_HARP
-#define DEBUG_HARP_SENSOR
+//#define DEBUG_HARP
+//#define DEBUG_HARP_SENSOR
 
 class LaserHarpString {
 public:
@@ -49,7 +49,7 @@ private:
     void send_note_on_signal(int octave_index);
 
     void send_note_off_signal(int octave_index);
-    
+
     int m_min_distance_cm;
     int m_max_distance_cm;
     int m_last_note_octave_index = -1;
@@ -58,9 +58,9 @@ private:
     int m_light_calibration_rounds;
     int m_distance_measurement_rounds;
     unsigned long m_next_ping_time_ms;
-    int m_base_light_level;
+    long m_base_light_level;
     long m_average_distance_cm;
-    bool m_previous_note_active_check_status;
+    bool m_note_was_active_at_last_check = false;
     NewPing m_sonar = NewPing((uint8_t) TRIGGER_PIN, (uint8_t) ECHO_PIN, m_max_distance_cm);
 
 };
